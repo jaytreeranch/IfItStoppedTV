@@ -132,3 +132,5 @@ footer span{text-align:center}footer a{text-align:right;color:#c8cdd1}
 }
 
 .button:focus,.button:focus-visible,.button.text:focus,.button.text:focus-visible{outline:3px solid #f0b35b!important;outline-offset:4px!important;box-shadow:0 0 0 2px #0d1014,0 0 0 6px #f0b35b!important}
+
+.button.keyboard-focus{outline:3px solid #f0b35b!important;outline-offset:4px!important;box-shadow:0 0 0 2px #0d1014,0 0 0 6px #f0b35b!important}
