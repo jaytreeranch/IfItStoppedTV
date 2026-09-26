@@ -35,7 +35,14 @@
 <div class="hero-actions"><a class="button primary" href="#chain">Trace the hidden chain</a><a class="button text" href="https://www.youtube.com/@IfItStoppedTV" target="_blank" rel="noopener">Watch on YouTube →</a></div>
 <div class="hero-tags" aria-label="What each story examines"><span>DEPENDENCIES</span><span>BACKUPS</span><span>BOTTLENECKS</span></div>
 </div>
-<figure class="hero-art"><img src="assets/banner.jpg" width="2560" height="1440" alt="Cinematic IF IT STOPPED system network showing modern infrastructure and connected dependencies"></figure>
+<div class="system-display" aria-label="Illustrated dependency map">
+<div class="system-center"><span>SYSTEM</span><strong>ONLINE</strong><small>remove one layer → trace the effects</small></div>
+<div class="system-node node-gps"><b>GPS</b><span>position + timing</span></div>
+<div class="system-node node-pay"><b>PAYMENTS</b><span>authorization</span></div>
+<div class="system-node node-traffic"><b>TRAFFIC</b><span>local control</span></div>
+<div class="system-node node-cold"><b>COLD CHAIN</b><span>temperature</span></div>
+<div class="system-link link-a"></div><div class="system-link link-b"></div><div class="system-link link-c"></div><div class="system-link link-d"></div>
+</div>
 </div>
 </section>
 
@@ -53,10 +60,10 @@
 <section class="scenarios" id="scenarios">
 <div class="section-head inverse"><div><p class="eyebrow">SCENARIO LIBRARY</p><h2>One missing system. Four very different chains.</h2></div><p>Each subject gets its own mechanism, evidence, and visual language. No recycled catastrophe template.</p></div>
 <div class="scenario-grid">
-<article class="scenario gps"><div class="scenario-visual" role="img" aria-label="Cinematic positioning and satellite infrastructure scene"></div><div class="scenario-top"><span>01 / POSITIONING</span><b>GPS</b></div><h3>Navigation is only the visible layer.</h3><p>Timing, dispatch, surveying, logistics, and synchronization all depend on positioning in different ways.</p><div class="signal"><em></em><em></em><em></em><em class="off"></em></div></article>
-<article class="scenario payments"><div class="scenario-visual" role="img" aria-label="Cinematic payments and transaction infrastructure scene"></div><div class="scenario-top"><span>02 / TRANSACTIONS</span><b>CARD PAYMENTS</b></div><h3>A payment failure becomes an operations problem.</h3><p>Queues, cash availability, connectivity, authorization, and merchant fallbacks determine what happens next.</p><div class="signal"><em></em><em></em><em class="off"></em><em class="off"></em></div></article>
-<article class="scenario traffic"><div class="scenario-visual" role="img" aria-label="Cinematic traffic signal and transportation infrastructure scene"></div><div class="scenario-top"><span>03 / TRAFFIC CONTROL</span><b>SIGNALS</b></div><h3>The system does not simply stop moving.</h3><p>Intersections, responders, drivers, and local control procedures adapt before congestion becomes the real constraint.</p><div class="signal"><em></em><em class="off"></em><em></em><em></em></div></article>
-<article class="scenario coldchain"><div class="scenario-visual" role="img" aria-label="Cinematic refrigeration and cold-chain infrastructure scene"></div><div class="scenario-top"><span>04 / COLD CHAIN</span><b>REFRIGERATION</b></div><h3>Failure is a race against heat and time.</h3><p>Thermal mass, door openings, backup power, fuel, and prioritization decide what is lost first.</p><div class="signal"><em></em><em></em><em></em><em class="off"></em></div></article>
+<article class="scenario gps"><div class="scenario-visual gps-visual" role="img" aria-label="Positioning network visualization"><span>03 SATELLITES</span><b>POSITION / TIME</b></div><div class="scenario-top"><span>01 / POSITIONING</span><b>GPS</b></div><h3>Navigation is only the visible layer.</h3><p>Timing, dispatch, surveying, logistics, and synchronization all depend on positioning in different ways.</p><div class="signal"><em></em><em></em><em></em><em class="off"></em></div></article>
+<article class="scenario payments"><div class="scenario-visual payments-visual" role="img" aria-label="Payments network visualization"><span>AUTHORIZATION</span><b>TRANSACTION PATH</b></div><div class="scenario-top"><span>02 / TRANSACTIONS</span><b>CARD PAYMENTS</b></div><h3>A payment failure becomes an operations problem.</h3><p>Queues, cash availability, connectivity, authorization, and merchant fallbacks determine what happens next.</p><div class="signal"><em></em><em></em><em class="off"></em><em class="off"></em></div></article>
+<article class="scenario traffic"><div class="scenario-visual traffic-visual" role="img" aria-label="Traffic network visualization"><span>INTERSECTION 04</span><b>LOCAL CONTROL</b></div><div class="scenario-top"><span>03 / TRAFFIC CONTROL</span><b>SIGNALS</b></div><h3>The system does not simply stop moving.</h3><p>Intersections, responders, drivers, and local control procedures adapt before congestion becomes the real constraint.</p><div class="signal"><em></em><em class="off"></em><em></em><em></em></div></article>
+<article class="scenario coldchain"><div class="scenario-visual cold-visual" role="img" aria-label="Cold-chain visualization"><span>TEMP +4°C</span><b>TIME / HEAT</b></div><div class="scenario-top"><span>04 / COLD CHAIN</span><b>REFRIGERATION</b></div><h3>Failure is a race against heat and time.</h3><p>Thermal mass, door openings, backup power, fuel, and prioritization decide what is lost first.</p><div class="signal"><em></em><em></em><em></em><em class="off"></em></div></article>
 </div>
 </section>
 
