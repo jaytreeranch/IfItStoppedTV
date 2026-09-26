@@ -8,3 +8,6 @@ if(!reduced&&'IntersectionObserver' in window){
   }),{threshold:.1,rootMargin:'0px 0px -28px'});
   document.querySelectorAll('.hero-copy,.hero-art,.chain,.scenario-grid article,.method-grid article,.resilience-inner,.cta').forEach(el=>{el.classList.add('reveal');io.observe(el)});
 }
+
+document.addEventListener('focusin',event=>{const el=event.target;if(el instanceof Element&&el.matches('.button'))el.classList.add('keyboard-focus')});
+document.addEventListener('focusout',event=>{const el=event.target;if(el instanceof Element&&el.matches('.button'))el.classList.remove('keyboard-focus')});
