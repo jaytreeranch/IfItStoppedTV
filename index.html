@@ -33,9 +33,9 @@
 <p class="promise">One system disappears. Everything changes.</p>
 <p class="hero-deck">We follow the real dependencies, backups, bottlenecks, and surprising things that keep working after a modern system goes offline.</p>
 <div class="hero-actions"><a class="button primary" href="#chain">Trace the hidden chain</a><a class="button text" href="https://www.youtube.com/@IfItStoppedTV" target="_blank" rel="noopener">Watch on YouTube →</a></div>
-<div class="hero-tags" aria-label="What each story examines"><span>DEPENDENCIES</span><span>BACKUPS</span><span>BOTTLENECKS</span></div>
+<div class="hero-tags" role="list" aria-label="What each story examines"><span role="listitem">DEPENDENCIES</span><span role="listitem">BACKUPS</span><span role="listitem">BOTTLENECKS</span></div>
 </div>
-<div class="system-display" aria-label="Illustrated dependency map">
+<div class="system-display" role="img" aria-label="Dependency map connecting GPS, payments, traffic, and cold-chain systems to a central online system">
 <div class="system-center"><span>SYSTEM</span><strong>ONLINE</strong><small>remove one layer → trace the effects</small></div>
 <div class="system-node node-gps"><b>GPS</b><span>position + timing</span></div>
 <div class="system-node node-pay"><b>PAYMENTS</b><span>authorization</span></div>
@@ -48,12 +48,12 @@
 
 <section class="chain section" id="chain">
 <div class="section-head"><div><p class="eyebrow">SYSTEM / DEPENDENCY / CONSEQUENCE</p><h2>Trace the chain, not the panic.</h2></div><p>Each episode removes one system, states the assumptions, and follows what changes next. The point is to understand causality, not manufacture a disaster.</p></div>
-<div class="flow" aria-label="IF IT STOPPED analysis flow">
-<article><span>01</span><strong>System</strong><small>What disappears?</small></article><i>→</i>
-<article><span>02</span><strong>Immediate effect</strong><small>What changes first?</small></article><i>→</i>
-<article><span>03</span><strong>Second order</strong><small>What follows later?</small></article><i>→</i>
-<article><span>04</span><strong>Backup</strong><small>What still works?</small></article><i>→</i>
-<article class="hot"><span>05</span><strong>Bottleneck</strong><small>What finally constrains the system?</small></article>
+<div class="flow" role="list" aria-label="IF IT STOPPED analysis flow">
+<article role="listitem"><span>01</span><strong>System</strong><small>What disappears?</small></article><i aria-hidden="true">→</i>
+<article role="listitem"><span>02</span><strong>Immediate effect</strong><small>What changes first?</small></article><i aria-hidden="true">→</i>
+<article role="listitem"><span>03</span><strong>Second order</strong><small>What follows later?</small></article><i aria-hidden="true">→</i>
+<article role="listitem"><span>04</span><strong>Backup</strong><small>What still works?</small></article><i aria-hidden="true">→</i>
+<article class="hot" role="listitem"><span>05</span><strong>Bottleneck</strong><small>What finally constrains the system?</small></article>
 </div>
 </section>
 
